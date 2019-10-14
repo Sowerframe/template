@@ -1,0 +1,18 @@
+{
+    "name": "sower/template",
+    "description": "template",
+    "license": "Apache-2.0",
+    "authors": [
+    ],
+    "require": {
+	   "php": ">=7.1.0",
+       "psr/simple-cache": "^1.0",
+	   "ext-swoole": ">=4.3",	  	   
+	   "sower/frame": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sower\\": "src"
+        }
+    }
+}
